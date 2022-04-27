@@ -2,7 +2,7 @@ import archinstall
 import logging
 import os
 import time
-class welcomeBanner: 
+def welcomeBanner(): 
 
         archinstall.log("""
                 ######################################
@@ -11,9 +11,4 @@ class welcomeBanner:
 
         """)
 
-
-
 welcomeBanner()
-
-
-

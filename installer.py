@@ -1,6 +1,7 @@
 import archinstall
 import logging
 import os
+import time
 class welcomeBanner: 
 
         archinstall.log("""

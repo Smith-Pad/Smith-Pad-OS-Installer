@@ -1,5 +1,5 @@
 import archinstall
-
+import logging
 class welcomeBanner: 
 
         archinstall.log("""

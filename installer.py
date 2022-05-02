@@ -1,4 +1,3 @@
-import logging
 def welcomeBanner(): 
 
         print("""

@@ -7,7 +7,7 @@ from archinstall import ConfigurationOutput
 from archinstall.lib.models.network_configuration import NetworkConfigurationHandler
 def welcomeBanner(): 
 
-        archinstall.log("""
+        print("""
                 ######################################
                 Welcome to the Smith-Pad-OS Installer
                 ######################################

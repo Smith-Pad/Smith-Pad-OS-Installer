@@ -10,5 +10,8 @@ def initialize():
 
 
 
+def partitionDisk(): 
+        listDisks = os.system("lsblk -d | grep disk")
+
 welcomeBanner()
 initialize()

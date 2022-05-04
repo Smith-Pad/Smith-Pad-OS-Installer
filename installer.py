@@ -15,3 +15,4 @@ def partitionDisk():
 
 welcomeBanner()
 initialize()
+partitionDisk()

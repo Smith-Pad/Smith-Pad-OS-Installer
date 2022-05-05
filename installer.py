@@ -30,7 +30,11 @@ def setupDisk():
 
         ## Allow the formatted disk to be mounted to /mnt/boot
         mountDisk = os.system("sh scripts/mountDisk.sh")
+
         
+        ## Install base packages to the formatted disk
+        install_base_packages = os.system("sh scripts/install-base-packages.sh")
+
 
 
 welcomeBanner()

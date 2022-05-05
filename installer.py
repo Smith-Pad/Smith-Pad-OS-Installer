@@ -25,6 +25,15 @@ def partitionDisk():
                 exit()
 
 
+
+def setupDisk(): 
+
+        ## Allow the formatted disk to be mounted to /mnt/boot
+        mountDisk = os.system("sh scripts/mountDisk.sh")
+        
+
+
 welcomeBanner()
 initialize()
 partitionDisk()
+setupDisk()

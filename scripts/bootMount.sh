@@ -5,3 +5,4 @@
 
 
 arch-chroot /mnt/
+echo "test"

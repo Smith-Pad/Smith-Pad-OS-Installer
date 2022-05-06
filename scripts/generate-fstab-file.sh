@@ -4,4 +4,4 @@
 
 
 
-genfstab -U /mnt >> /mnt/boot/etc/fstab 
+genfstab -U /mnt >> /mnt/etc/fstab 

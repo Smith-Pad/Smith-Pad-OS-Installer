@@ -4,4 +4,4 @@
 
 
 
-arch-chroot /mnt/boot
+arch-chroot /mnt/

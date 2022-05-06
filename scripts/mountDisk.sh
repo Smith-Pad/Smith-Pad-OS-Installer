@@ -4,4 +4,4 @@
 
 
 
-mount --mkdir /dev/sdc /mnt/boot
+mount --mkdir /dev/sda /mnt/

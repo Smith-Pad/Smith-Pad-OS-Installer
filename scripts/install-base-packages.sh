@@ -4,4 +4,4 @@
 
 
 
-pacstrap /mnt/boot base linux linux-firmware
+pacstrap /mnt/ base linux linux-firmware

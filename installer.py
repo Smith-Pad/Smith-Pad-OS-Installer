@@ -35,6 +35,9 @@ def setupDisk():
         ## Install base packages to the formatted disk
         install_base_packages = os.system("sh scripts/install-base-packages.sh")
 
+        ## Generate the fstab file
+        generate_fstab_file = os.system("sh scripts/generate-fstab-file.sh")
+
         
         ## Chroot into the formatted disk 
         bootMount = os.system("sh scripts/bootMount.sh") 

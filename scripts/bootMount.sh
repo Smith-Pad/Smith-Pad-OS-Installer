@@ -4,4 +4,6 @@
 
 
 
-arch-chroot /mnt/
+arch-chroot /mnt/ /bin/bash <<"EOT"
+echo "hello world" 
+EOT

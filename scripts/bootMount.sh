@@ -5,5 +5,5 @@
 
 
 arch-chroot /mnt/ /bin/bash <<"EOT"
-echo "hello world" 
+
 EOT

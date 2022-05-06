@@ -8,5 +8,5 @@
 ##
 
 arch-chroot /mnt/ /bin/bash <<"EOT"
-
+	pacman -Sy
 EOT

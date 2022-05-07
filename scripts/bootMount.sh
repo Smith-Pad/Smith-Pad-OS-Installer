@@ -16,6 +16,13 @@ arch-chroot /mnt/ /bin/bash <<"EOT"
 		pacman -S xorg-server 
 	}
 
+
+	function prompt_user_hostname() {
+		echo "Please enter the device name: \n"
+		read $hostname
+		echo $hostname >> /etc/hostname
+	}
+
 	installPackages
 	
 EOT

@@ -12,10 +12,5 @@ arch-chroot /mnt/ /bin/bash <<"EOT"
 	pacman -S git
 	pacman -S gnome-tweaks 
 	pacman -S pcmanfm 
-	pacman -S xorg-server 
-
-
-
-	echo "some_hostname" >> /etc/hostname
-	
+	pacman -S xorg-server 	
 EOT

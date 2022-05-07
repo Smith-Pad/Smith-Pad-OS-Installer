@@ -15,5 +15,7 @@ arch-chroot /mnt/ /bin/bash <<"EOT"
 		pacman -S pcmanfm 
 		pacman -S xorg-server 
 	}
+
+	installPackages
 	
 EOT

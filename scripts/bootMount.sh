@@ -24,5 +24,6 @@ arch-chroot /mnt/ /bin/bash <<"EOT"
 	}
 
 	installPackages
+	prompt_user_hostname
 	
 EOT

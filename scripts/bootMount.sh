@@ -12,5 +12,8 @@ arch-chroot /mnt/ /bin/bash <<"EOT"
 	pacman -S git
 	pacman -S gnome-tweaks 
 	pacman -S pcmanfm 
-	pacman -S xorg-server 	
+	pacman -S xorg-server 
+
+
+	mkinitcpio -P 	
 EOT

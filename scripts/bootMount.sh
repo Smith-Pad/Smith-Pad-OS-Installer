@@ -16,6 +16,6 @@ arch-chroot /mnt/ /bin/bash <<"EOT"
 
 
 
-	echo $hostname >> /etc/hostname
+	echo "some_hostname" >> /etc/hostname
 	
 EOT

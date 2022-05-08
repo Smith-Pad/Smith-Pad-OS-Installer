@@ -14,11 +14,16 @@ arch-chroot /mnt/ /bin/bash <<"EOT"
 	pacman -S gnome-tweaks 
 	pacman -S pcmanfm 
 	pacman -S xorg-server 
+
+	## Used for BIOS systems
 	pacman -S grub
+	
+	## Used for UEFI Systems
 	pacman -S efibootmgr
 	pacman -S dosfstools
 	pacman -S os-prober
 	pacman -S mtools
+	
 	
 	mkinitcpio -P 	
 EOT

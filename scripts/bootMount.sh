@@ -530,7 +530,7 @@ arch-chroot /mnt/ /bin/bash <<"EOT"
 	#zu_ZA ISO-8859-1  
 	en_US.UTF-8 UTF-8
 	
-	"""
+	""" >> /etc/locale.gen
 
 	mkinitcpio -P 	
 EOT

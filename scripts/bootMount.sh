@@ -15,6 +15,10 @@ arch-chroot /mnt/ /bin/bash <<"EOT"
 	pacman -S pcmanfm 
 	pacman -S xorg-server 
 	pacman -S grub
+	pacman -S efibootmgr
+	pacman -S dosfstools
+	pacman -S os-prober
+	pacman -S mtools
 	
 	mkinitcpio -P 	
 EOT

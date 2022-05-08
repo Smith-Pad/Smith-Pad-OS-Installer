@@ -8,22 +8,23 @@
 ##
 
 arch-chroot /mnt/ /bin/bash <<"EOT"
-    	ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
-	pacman -Sy
-	pacman -S git
-	pacman -S gnome-tweaks 
-	pacman -S pcmanfm 
-	pacman -S xorg-server 
+ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
+pacman -Sy
+pacman -S git
+pacman -S gnome-tweaks 
+pacman -S pcmanfm 
+pacman -S xorg-server
+pacman -S git
 
-	## Used for BIOS systems
-	pacman -S grub
+## Used for BIOS systems
+pacman -S grub
 	
-	## Used for UEFI Systems
-	pacman -S efibootmgr
-	pacman -S dosfstools
-	pacman -S os-prober
-	pacman -S mtools
+## Used for UEFI Systems
+pacman -S efibootmgr
+pacman -S dosfstools
+pacman -S os-prober
+pacman -S mtools
 	
 	
-	mkinitcpio -P 	
+mkinitcpio -P 	
 EOT

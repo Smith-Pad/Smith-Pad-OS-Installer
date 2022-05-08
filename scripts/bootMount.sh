@@ -533,3 +533,4 @@ arch-chroot /mnt/ /bin/bash <<"EOT"
 	""" >> /etc/locale.gen
 
 	mkinitcpio -P 	
+EOT

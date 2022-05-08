@@ -16,6 +16,6 @@ arch-chroot /mnt/ /bin/bash <<"EOT"
 	pacman -S xorg-server 
 
 	echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen
-
+	locale-gen
 	mkinitcpio -P 	
 EOT

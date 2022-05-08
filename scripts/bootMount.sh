@@ -8,6 +8,7 @@
 ##
 
 arch-chroot /mnt/ /bin/bash <<"EOT"
+    ln -sf /usr/share/zoneinfo/America/New_York /etc/localtime
 	pacman -Sy
 	pacman -S git
 	pacman -S gnome-tweaks 

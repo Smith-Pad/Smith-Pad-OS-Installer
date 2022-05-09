@@ -54,3 +54,50 @@ git clone https://github.com/Smith-Pad/Smith-Pad-OS-Installer
 ```shell
 cd Smith-Pad-OS-Installer
 ```
+
+
+
+##### Fifth Step 
+
+> To run the first script, type this command: 
+
+```shell
+python installer.py
+```
+
+
+
+
+
+
+##### Sixth Step 
+
+> This is where you have to do the manual work. But it is easy. 
+> Just follow the steps given here. 
+
+
+###### Step 1 
+
+> arch-chroot /mnt/ /bin/bash
+
+
+###### Step 2
+
+> pacman -Sy 
+
+
+###### Step 3 
+
+> pacman -S git 
+
+
+
+###### Step 4 
+
+> git clone https://github.com/Smith-Pad/Smith-Pad-OS-Installer
+
+
+
+###### Step 5   
+
+> sh chroot-installer.sh 

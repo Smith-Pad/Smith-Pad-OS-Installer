@@ -623,6 +623,39 @@ function setLocale() {
 }
 
 
+function notifyUser_setHosts() {
+        echo "! Installing Hosts "   && sleep 0.2 && clear
+        echo "! Installing Hosts"   && sleep 0.2 && clear
+        echo "! Installing Host"   && sleep 0.2 && clear
+        echo "! Installing Ho"   && sleep 0.2 && clear
+        echo "! Installing H"   && sleep 0.2 && clear
+        echo "! Installing "   && sleep 0.2 && clear
+        echo "! Installing"   && sleep 0.2 && clear
+        echo "! Installin"   && sleep 0.2 && clear
+        echo "! Installi"   && sleep 0.2 && clear
+        echo "! Install"   && sleep 0.2 && clear
+        echo "! Instal"   && sleep 0.2 && clear
+        echo "! Insta"   && sleep 0.2 && clear
+        echo "! Inst"   && sleep 0.2 && clear
+        echo "! Ins"   && sleep 0.2 && clear
+        echo "! In"   && sleep 0.2 && clear
+        echo "! I"   && sleep 0.2 && clear
+        echo "! "   && sleep 0.2 && clear
+        echo "!"   && sleep 0.2 && clear
+        echo ""   && sleep 0.2 && clear
+}
+
+
+
+function setHosts() {
+        echo """
+        # Static table lookup for hostnames.
+        # See hosts(5) for details.
+
+        127.0.0.1       localhost
+        """ >> /etc/hosts
+
+}
 
 welcomeBanner
 initialize
@@ -635,3 +668,6 @@ installPackages
 
 notifyUser_setLocale
 setLocale
+
+notifyUser_setHosts 
+setHosts

@@ -626,9 +626,12 @@ function setLocale() {
 
 welcomeBanner
 initialize
+
 notifyUser_setHardwareClock
 setHardwareClock
+
 notifyUser_installPackages
 installPackages
+
 notifyUser_setLocale
 setLocale

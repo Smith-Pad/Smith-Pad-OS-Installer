@@ -78,26 +78,36 @@ python installer.py
 
 ###### Step 1 
 
-> arch-chroot /mnt/ /bin/bash
 
+```shell 
+arch-chroot /mnt/ /bin/bash
+```
 
 ###### Step 2
 
-> pacman -Sy 
 
+```shell
+pacman -Sy 
+```
 
 ###### Step 3 
 
-> pacman -S git 
-
+```shell
+pacman -S git
+```
 
 
 ###### Step 4 
 
-> git clone https://github.com/Smith-Pad/Smith-Pad-OS-Installer
-
+```shell
+git clone https://github.com/Smith-Pad/Smith-Pad-OS-Installer 
+```
 
 
 ###### Step 5   
 
-> sh chroot-installer.sh 
+```shell
+sh chroot-installer.sh
+```
+
+

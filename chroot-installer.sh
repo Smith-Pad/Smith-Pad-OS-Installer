@@ -657,6 +657,266 @@ function setHosts() {
 
 }
 
+
+function notifyUser_setRoot() {
+        echo ""   && sleep 0.2 && clear
+        echo "_"   && sleep 0.2 && clear        
+        echo "__"   && sleep 0.2 && clear        
+        echo "___"   && sleep 0.2 && clear        
+        echo "____"   && sleep 0.2 && clear        
+        echo "_____"   && sleep 0.2 && clear        
+        echo "______"   && sleep 0.2 && clear        
+        echo "_______"   && sleep 0.2 && clear        
+        echo "________"   && sleep 0.2 && clear        
+        echo "_________"   && sleep 0.2 && clear        
+        echo "__________"   && sleep 0.2 && clear        
+        echo "___________"   && sleep 0.2 && clear        
+        echo "____________"   && sleep 0.2 && clear        
+        echo "_____________"   && sleep 0.2 && clear        
+        echo "______________"   && sleep 0.2 && clear        
+	echo "_______________"   && sleep 0.2 && clear        
+	echo "________________"   && sleep 0.2 && clear        
+	echo "_________________"   && sleep 0.2 && clear        
+	echo "__________________"   && sleep 0.2 && clear        
+	echo "___________________"   && sleep 0.2 && clear        
+	echo "____________________"   && sleep 0.2 && clear
+	echo "_____________________"   && sleep 0.2 && clear        
+	echo "______________________"   && sleep 0.2 && clear        
+	echo "_______________________"   && sleep 0.2 && clear        
+	echo "________________________"   && sleep 0.2 && clear        
+	echo "_________________________"   && sleep 0.2 && clear        
+	echo "__________________________"   && sleep 0.2 && clear        
+	echo "___________________________"   && sleep 0.2 && clear        
+	echo "____________________________"   && sleep 0.2 && clear        
+	echo "_____________________________"   && sleep 0.2 && clear        
+	echo "______________________________"   && sleep 0.2 && clear        
+	echo "_______________________________"   && sleep 0.2 && clear        
+	echo "________________________________"   && sleep 0.2 && clear        
+	echo "_________________________________"   && sleep 0.2 && clear        
+	echo "__________________________________"   && sleep 0.2 && clear        
+	echo "___________________________________"   && sleep 0.2 && clear
+	echo "____________________________________"   && sleep 0.2 && clear
+	echo "_____________________________________"   && sleep 0.2 && clear
+	echo "______________________________________"   && sleep 0.2 && clear
+	echo "_______________________________________"   && sleep 0.2 && clear
+	echo "________________________________________"   && sleep 0.2 && clear
+	echo "_________________________________________"   && sleep 0.2 && clear
+	echo "_________________________________________"   && sleep 0.2 && clear
+
+
+
+
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "            "    
+	echo "__________________________________________"   && sleep 0.2 && clear 
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  P          "    
+	echo "__________________________________________"   && sleep 0.2 && clear 
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Pl          "    
+	echo "__________________________________________"   && sleep 0.2 && clear 
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Ple          "    
+	echo "__________________________________________"   && sleep 0.2 && clear 
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Plea          "    
+	echo "__________________________________________"   && sleep 0.2 && clear 
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Pleas          "    
+	echo "__________________________________________"   && sleep 0.2 && clear 
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please          "    
+	echo "__________________________________________"   && sleep 0.2 && clear 
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please          "    
+	echo "__________________________________________"   && sleep 0.2 && clear 
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please e         "    
+	echo "__________________________________________"   && sleep 0.2 && clear 
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please en         "    
+	echo "__________________________________________"   && sleep 0.2 && clear 
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please ent         "    
+	echo "__________________________________________"   && sleep 0.2 && clear   
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please ente         "    
+	echo "__________________________________________"   && sleep 0.2 && clear   
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please enter         "    
+	echo "__________________________________________"   && sleep 0.2 && clear    
+
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please enter y        "    
+	echo "__________________________________________"   && sleep 0.2 && clear    
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please enter yo        "    
+	echo "__________________________________________"   && sleep 0.2 && clear    
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please enter you        "    
+	echo "__________________________________________"   && sleep 0.2 && clear      
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please enter your          "    
+	echo "__________________________________________"   && sleep 0.2 && clear    
+
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please enter your r         "    
+	echo "__________________________________________"   && sleep 0.2 && clear
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please enter your ro         "    
+	echo "__________________________________________"   && sleep 0.2 && clear
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please enter your roo         "    
+	echo "__________________________________________"   && sleep 0.2 && clear 
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please enter your root         "    
+	echo "__________________________________________"   && sleep 0.2 && clear
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please enter your root p        "    
+	echo "__________________________________________"   && sleep 0.2 && clear
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please enter your root pa        "    
+	echo "__________________________________________"   && sleep 0.2 && clear  
+
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please enter your root pas        "    
+	echo "__________________________________________"   && sleep 0.2 && clear  
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please enter your root pass        "    
+	echo "__________________________________________"   && sleep 0.2 && clear       
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please enter your root passw        "    
+	echo "__________________________________________"   && sleep 0.2 && clear
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please enter your root passwo        "    
+	echo "__________________________________________"   && sleep 0.2 && clear     
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please enter your root passwor        "    
+	echo "__________________________________________"   && sleep 0.2 && clear
+
+
+
+	echo "__________________________________________"   && sleep 0.2 && clear
+        echo "                                          "   && sleep 0.2 && clear
+        echo "  Please enter your root password:        "    
+	echo "__________________________________________"   && sleep 0.2 && clear
+        
+}
+
+
+function setRoot() {
+	echo "__________________________________________"   
+        echo "                                          "   
+        echo "  Please enter your root password:        "    
+	echo "__________________________________________"   
+
+        passwd
+}
+
+
 welcomeBanner
 initialize
 
@@ -671,3 +931,5 @@ setLocale
 
 notifyUser_setHosts 
 setHosts
+
+notifyUser_setRoot

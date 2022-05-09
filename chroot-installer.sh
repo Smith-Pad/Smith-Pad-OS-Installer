@@ -5,6 +5,10 @@ function welcomeBanner() {
         sleep 5
 }
 
+function initialize() {
+        arch-chroot /mnt/ /bin/bash 
+}
+
 
 function installPackages() {
         pacman -Sy
@@ -26,4 +30,5 @@ function installPackages() {
 
 
 welcomeBanner
+initialize
 installPackages

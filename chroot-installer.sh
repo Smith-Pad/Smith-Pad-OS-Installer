@@ -626,9 +626,9 @@ function setLocale() {
 
 welcomeBanner
 initialize
-notifyUser_installPackages
 notifyUser_setHardwareClock
 setHardwareClock
+notifyUser_installPackages
+installPackages
 notifyUser_setLocale
 setLocale
-installPackages

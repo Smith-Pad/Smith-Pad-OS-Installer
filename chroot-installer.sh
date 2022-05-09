@@ -9,6 +9,28 @@ function initialize() {
         arch-chroot /mnt/ /bin/bash 
 }
 
+function notifyUser_installPackages() {
+        echo "! Installing Packages "   && sleep 0.2 && clear
+        echo "! Installing Package "    && sleep 0.2 && clear
+        echo "! Installing Packag "     && sleep 0.2 && clear
+        echo "! Installing Packa "      && sleep 0.2 && clear 
+        echo "! Installing Pack "       && sleep 0.2 && clear 
+        echo "! Installing Pac "        && sleep 0.2 && clear
+        echo "! Installing Pa "         && sleep 0.1 && clear
+        echo "! Installing P "          && sleep 0.1 && clear
+        echo "! Installing "            && sleep 0.1 && clear
+        echo "! Installin "             && sleep 0.1 && clear
+        echo "! Installi "              && sleep 0.1 && clear
+        echo "! Install "               && sleep 0.1 && clear
+        echo "! Instal "                && sleep 0.1 && clear
+        echo "! Insta "                 && sleep 0.1 && clear
+        echo "! Inst "                  && sleep 0.1 && clear
+        echo "! Ins "                   && sleep 0.1 && clear
+        echo "! In "                    && sleep 0.1 && clear
+        echo "! I "                     && sleep 0.1 && clear
+        echo "!  "                      && sleep 0.1 && clear
+        echo ""                         && sleep 0.1 && clear
+}
 
 function installPackages() {
         pacman -Sy
@@ -31,4 +53,5 @@ function installPackages() {
 
 welcomeBanner
 initialize
+notifyUser_installPackages
 installPackages

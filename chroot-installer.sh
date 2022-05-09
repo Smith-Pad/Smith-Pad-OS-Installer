@@ -9,6 +9,39 @@ function initialize() {
         arch-chroot /mnt/ /bin/bash 
 }
 
+function notifyUser_setHardwareClock() {
+        echo "! Setting Hardware Clock "   && sleep 0.2 && clear
+        echo "! Setting Hardware Cloc "   && sleep 0.2 && clear
+        echo "! Setting Hardware Clo "   && sleep 0.2 && clear
+        echo "! Setting Hardware Cl "   && sleep 0.2 && clear
+        echo "! Setting Hardware C "   && sleep 0.2 && clear
+        echo "! Setting Hardware  "   && sleep 0.2 && clear
+        echo "! Setting Hardware"   && sleep 0.2 && clear
+        echo "! Setting Hardwar"   && sleep 0.2 && clear
+        echo "! Setting Hardwa"   && sleep 0.2 && clear
+        echo "! Setting Hardw"   && sleep 0.2 && clear
+        echo "! Setting Hard"   && sleep 0.2 && clear
+        echo "! Setting Har"   && sleep 0.2 && clear
+        echo "! Setting Ha"   && sleep 0.2 && clear
+        echo "! Setting H"   && sleep 0.2 && clear
+        echo "! Setting "   && sleep 0.2 && clear
+        echo "! Setting"   && sleep 0.2 && clear
+        echo "! Settin"   && sleep 0.2 && clear
+        echo "! Setti"   && sleep 0.2 && clear
+        echo "! Sett"   && sleep 0.2 && clear
+        echo "! Set"   && sleep 0.2 && clear
+        echo "! Se"   && sleep 0.2 && clear
+        echo "! S"   && sleep 0.2 && clear
+        echo "! "   && sleep 0.2 && clear
+        echo "!"   && sleep 0.2 && clear
+        echo ""   && sleep 0.2 && clear
+}
+
+
+function setHardwareClock() {
+        hwclock --systohc
+}
+
 function notifyUser_installPackages() {
         echo "! Installing Packages "   && sleep 0.2 && clear
         echo "! Installing Package "    && sleep 0.2 && clear
@@ -54,4 +87,6 @@ function installPackages() {
 welcomeBanner
 initialize
 notifyUser_installPackages
+notifyUser_setHardwareClock
+setHardwareClock
 installPackages

@@ -38,10 +38,6 @@ def setupDisk():
         ## Generate the fstab file
         generate_fstab_file = os.system("sh scripts/generate-fstab-file.sh")
 
-        
-        ## Chroot into the formatted disk 
-        bootMount = os.system("sh scripts/bootMount.sh") 
-
 
 welcomeBanner()
 initialize()

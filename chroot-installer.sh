@@ -933,3 +933,4 @@ notifyUser_setHosts
 setHosts
 
 notifyUser_setRoot
+setRoot

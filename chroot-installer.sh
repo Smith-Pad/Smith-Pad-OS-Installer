@@ -76,6 +76,7 @@ function installPackages() {
         pacman -S dosfstools
         pacman -S os-prober
         pacman -S mtools
+        pacman -S sudo
         
 }
 

@@ -1100,6 +1100,10 @@ function setUserName() {
 	read user
 
 	useradd -m $user
+
+	clear 
+	echo "$user It is successfully created"
+	sleep 2
 }
 
 

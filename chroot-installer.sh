@@ -1097,9 +1097,9 @@ function setUserName() {
 	echo "__________________________________________"
 
 
-	read USERNAME
+	read user
 
-	useradd -m $USERNAME     
+	useradd -m $user
 }
 
 

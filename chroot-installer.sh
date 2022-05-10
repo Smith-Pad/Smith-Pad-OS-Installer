@@ -1102,6 +1102,24 @@ function setUserName() {
 	useradd -m $USERNAME     
 }
 
+
+function notifyUser_setUserPassword() {
+	clear
+
+	echo """
+	_______________________________________________
+	   /!\ Please manually set the password
+	       based on the username that you 
+	       have created. By using this command: 
+
+	       passwd <USERNAME THAT YOU HAVE ENTERED>
+
+
+	       Example: passwd user
+	_______________________________________________
+	"""
+}
+
 welcomeBanner
 initialize
 
@@ -1123,3 +1141,5 @@ setRoot
 
 notifyUser_setUserName
 setUserName
+
+notifyUser_setUserPassword
